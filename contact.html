@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SyncLogic Systems</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 4rem;
+            margin-top: 4rem;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 0.8rem;
+            background: var(--color-card);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            color: white;
+            font-family: inherit;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--color-blue);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo-container">
+            <img src="assets/logo-white-icon.png" alt="SyncLogic Icon" class="nav-logo">
+            <div class="logo-text" style="font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em;">SYNCLOGIC <span style="color: var(--color-green-bright); text-shadow: 0 0 10px rgba(22, 122, 86, 0.4);">Systems</span></div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="story.html">Our Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+    </nav>
+
+    <header class="container" style="padding: 6rem 2rem; text-align: center;">
+        <h1 style="font-size: 3rem;">Initiate <span class="text-gradient-blue">Protocol</span></h1>
+        <p style="color: var(--color-text-muted); max-width: 600px; margin: 1rem auto 0;">
+            Secure an engineering consultation for your business infrastructure.
+        </p>
+    </header>
+
+    <section class="container" style="padding-bottom: 8rem;">
+        <div class="contact-grid">
+            <div>
+                <h3 style="margin-bottom: 1.5rem;">Direct Inquiry</h3>
+                <div style="margin-bottom: 2rem;">
+                    <p style="color: var(--color-blue); font-weight: 600;">Office Location</p>
+                    <p style="color: var(--color-text-muted);">SyncLogic Engineering Studio<br>Sovereign Digital District</p>
+                </div>
+                <div style="margin-bottom: 2rem;">
+                    <p style="color: var(--color-blue); font-weight: 600;">Secure Email</p>
+                    <p style="color: var(--color-text-muted);">support@synclogicsystems.com</p>
+                </div>
+                <div style="background: var(--color-card); padding: 2rem; border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.05);">
+                    <p style="font-size: 0.9rem; color: var(--color-text-muted);">
+                        <span style="color: var(--color-green); font-weight: 700;">PRO-TIP:</span> Business owners often start with our <strong>Digital Presence</strong> package to secure their foundation before scaling to automation.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <form id="contactForm" style="background: var(--color-card); padding: 3rem; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.05);">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="e.g. John Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Company Email</label>
+                        <input type="email" placeholder="john@company.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" placeholder="+60 12-345 6789">
+                    </div>
+                    <div class="form-group">
+                        <label>Service Vertical</label>
+                        <select id="packageSelect">
+                            <option value="">-- Select Your Requirement --</option>
+                            <option value="tier1">Tier 1: Digital Presence Package</option>
+                            <option value="tier2">Tier 2: Automated Business Package</option>
+                            <option value="tier3">Tier 3: Enterprise Operations Package</option>
+                            <option value="infrastructure">Vertical 01: Sovereign Infrastructure</option>
+                            <option value="iot">Vertical 02: Industrial IoT & Telemetry</option>
+                            <option value="apps">Vertical 03: Enterprise Mobile Apps</option>
+                            <option value="ai">Vertical 04: Sovereign AI Agents</option>
+                            <option value="retrofitting">Vertical 05: Hardware Retrofitting</option>
+                            <option value="advisory">Vertical 06: Strategic Advisory</option>
+                            <option value="mentorship">Vertical 07: STEM Mentorship</option>
+                            <option value="custom">Other: Custom R&D Project</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Business Challenge</label>
+                        <textarea rows="5" placeholder="Briefly describe your current technical bottleneck..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <img src="assets/logo-white-full.png" alt="SyncLogic Systems Full Logo" class="footer-logo">
+                <p>Precision Infrastructure. Sovereign Intelligence. The digital nervous system for modern business.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Verticals</h4>
+                <ul>
+                    <li><a href="services.html#iot">Industrial IoT</a></li>
+                    <li><a href="services.html#apps">Custom Apps</a></li>
+                    <li><a href="services.html#ai">Sovereign AI</a></li>
+                    <li><a href="services.html#infrastructure">IT Automation</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="security.html">Security Protocol</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 SyncLogic Systems. All Rights Reserved. Designed for Sovereignty.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Fail-safe: Force splash removal after 3.5s for local file compatibility
+        setTimeout(function() {
+            var s = document.getElementById('splash-screen');
+            if (s && !s.classList.contains('fade-out')) {
+                s.classList.add('fade-out');
+                document.body.classList.remove('lock-scroll');
+                setTimeout(function() { s.style.display = 'none'; }, 800);
+            }
+        }, 3500);
+    </script>
+</body>
+</html>

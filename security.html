@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Protocol | SyncLogic Systems</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo-container">
+            <img src="assets/logo-white-icon.png" alt="SyncLogic Icon" class="nav-logo">
+            <div class="logo-text" style="font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em;">SYNCLOGIC <span style="color: var(--color-green-bright); text-shadow: 0 0 10px rgba(22, 122, 86, 0.4);">Systems</span></div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="story.html">Our Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+    </nav>
+
+    <header class="container" style="padding: 6rem 2rem; text-align: center;">
+        <h1 style="font-size: 3rem;">Security <span class="text-gradient-blue">Protocol</span></h1>
+        <p style="color: var(--color-text-muted); max-width: 600px; margin: 1rem auto 0;">
+            Medical-grade standards for digital integrity.
+        </p>
+    </header>
+
+    <section class="container" style="max-width: 900px; padding-bottom: 8rem;">
+        <div style="background: var(--color-card); padding: 4rem; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.1);">
+            <h3 style="color: var(--color-blue-bright); margin-bottom: 1.5rem;">1. Zero-Trust Architecture</h3>
+            <p style="margin-bottom: 2rem;">We operate on the principle of "never trust, always verify." Every system we architect requires explicit authentication for every transaction, node, and user, minimizing the attack surface of your infrastructure.</p>
+
+            <h3 style="color: var(--color-blue-bright); margin-bottom: 1.5rem;">2. Biomedical Rigor</h3>
+            <p style="margin-bottom: 2rem;">Applying standards from biomedical engineering, we treat your business data with the same critical care as patient records. This includes redundant encryption layers (AES-256) and secure hardware-level isolation for IoT devices.</p>
+
+            <h3 style="color: var(--color-blue-bright); margin-bottom: 1.5rem;">3. Telemetry & Monitoring</h3>
+            <p style="margin-bottom: 2rem;">Our systems are equipped with autonomous security agents that monitor for behavioral anomalies. Instant alerts are triggered to our command center and your personal device upon detection of unauthorized access attempts.</p>
+
+            <h3 style="color: var(--color-blue-bright); margin-bottom: 1.5rem;">4. Asset Vaulting</h3>
+            <p style="margin-bottom: 2rem;">Your intellectual property is stored in our proprietary "Secure Business Vaults." These environments are physically and digitally decoupled from public networks when not in use, providing an offline safety net for your records.</p>
+
+            <p style="font-style: italic; color: var(--color-text-muted);">Document: SLS-SEC-2026</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <img src="assets/logo-white-full.png" alt="SyncLogic Systems Full Logo" class="footer-logo">
+                <p>Precision Infrastructure. Sovereign Intelligence. The digital nervous system for modern business.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Verticals</h4>
+                <ul>
+                    <li><a href="services.html#iot">Industrial IoT</a></li>
+                    <li><a href="services.html#apps">Custom Apps</a></li>
+                    <li><a href="services.html#ai">Sovereign AI</a></li>
+                    <li><a href="services.html#infrastructure">IT Automation</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="security.html">Security Protocol</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 SyncLogic Systems. All Rights Reserved. Designed for Sovereignty.
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        setTimeout(function() {
+            var s = document.getElementById('splash-screen');
+            if (s && !s.classList.contains('fade-out')) {
+                s.classList.add('fade-out');
+                document.body.classList.remove('lock-scroll');
+                setTimeout(function() { s.style.display = 'none'; }, 800);
+            }
+        }, 3500);
+    </script>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | SyncLogic Systems</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .vertical-section {
+            padding: 6rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .vertical-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        .vertical-tag {
+            color: var(--color-green);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .feature-list {
+            list-style: none;
+            margin-top: 1.5rem;
+        }
+        .feature-list li {
+            margin-bottom: 0.8rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        .feature-list li::before {
+            content: "•";
+            color: var(--color-blue);
+            position: absolute;
+            left: 0;
+            font-weight: 900;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="logo-container">
+            <img src="assets/logo-white-icon.png" alt="SyncLogic Icon" class="nav-logo">
+            <div class="logo-text" style="font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em;">SYNCLOGIC <span style="color: var(--color-green-bright); text-shadow: 0 0 10px rgba(22, 122, 86, 0.4);">Systems</span></div>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="story.html">Our Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+    </nav>
+
+    <header class="container" style="padding: 6rem 2rem; text-align: center;">
+        <h1 style="font-size: 3rem;">Engineering <span class="text-gradient-green">Verticals</span></h1>
+        <p style="color: var(--color-text-muted); max-width: 600px; margin: 1rem auto 0;">
+            We solve complex business problems through structural logic and precision engineering.
+        </p>
+    </header>
+
+    <!-- Vertical 1: Infrastructure -->
+    <section id="infrastructure" class="vertical-section">
+        <div class="container vertical-grid">
+            <div>
+                <span class="vertical-tag">Vertical 01</span>
+                <h2>Sovereign Operational Infrastructure</h2>
+                <p style="color: var(--color-text-muted); margin-top: 1rem;">
+                    Stop renting your digital tools. We build private, secure ecosystems that return data ownership to you. From zero-trust email to automated business intelligence dashboards.
+                </p>
+                <ul class="feature-list">
+                    <li>Custom Business Identity & Domain Security</li>
+                    <li>Zero-Cost Email Forwarding & Professional Suites</li>
+                    <li>High-Security Data Vaults for Sensitive Records</li>
+                    <li>Private "Telegram" Command-and-Control Centers</li>
+                </ul>
+                <a href="contact.html?selection=infrastructure" class="btn btn-outline" style="margin-top: 1.5rem;">Request Protocol Details</a>
+            </div>
+            <div style="background: var(--color-card); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <span style="color: var(--color-blue); font-size: 5rem; opacity: 0.2;">🛡️</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vertical 2: IoT -->
+    <section id="iot" class="vertical-section" style="background: #050505;">
+        <div class="container vertical-grid">
+            <div style="background: var(--color-card); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center; order: 2;">
+                <span style="color: var(--color-green); font-size: 5rem; opacity: 0.2;">🛰️</span>
+            </div>
+            <div style="order: 1;">
+                <span class="vertical-tag">Vertical 02</span>
+                <h2>Industrial IoT & Remote Telemetry</h2>
+                <p style="color: var(--color-text-muted); margin-top: 1rem;">
+                    We bring physical equipment into the digital age. Monitor your pharmacy's cold storage, factory machines, or kitchen safety from your phone 24/7.
+                </p>
+                <ul class="feature-list">
+                    <li>Real-time Temperature & Humidity Protection</li>
+                    <li>Predictive Maintenance: Detect stress before breakdowns</li>
+                    <li>Automated Compliance Logs (Audit-ready)</li>
+                    <li>Safety Sensors: Gas leaks, smoke, and door-open alerts</li>
+                </ul>
+                <a href="contact.html?selection=iot" class="btn btn-outline" style="margin-top: 1.5rem;">Initiate Telemetry Audit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vertical 3: Mobile & Apps -->
+    <section id="apps" class="vertical-section">
+        <div class="container vertical-grid">
+            <div>
+                <span class="vertical-tag">Vertical 03</span>
+                <h2>Enterprise Mobile Solutions</h2>
+                <p style="color: var(--color-text-muted); margin-top: 1rem;">
+                    Custom-built apps that work perfectly on both iPhone and Android. Manage your staff, track logistics, or give your customers a premium ordering experience.
+                </p>
+                <ul class="feature-list">
+                    <li>Internal Staff & Attendance Management</li>
+                    <li>Logistics & Real-time Stock Tracking</li>
+                    <li>Executive Dashboards for Decision-Makers</li>
+                    <li>Direct Customer Engagement & Loyalty Systems</li>
+                </ul>
+                <a href="contact.html?selection=apps" class="btn btn-outline" style="margin-top: 1.5rem;">Request Mobile Architecture</a>
+            </div>
+            <div style="background: var(--color-card); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <span style="color: var(--color-blue); font-size: 5rem; opacity: 0.2;">📱</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vertical 4: AI -->
+    <section id="ai" class="vertical-section" style="background: #050505;">
+        <div class="container vertical-grid">
+            <div style="background: var(--color-card); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center; order: 2;">
+                <span style="color: var(--color-red); font-size: 5rem; opacity: 0.2;">🤖</span>
+            </div>
+            <div style="order: 1;">
+                <span class="vertical-tag">Vertical 04</span>
+                <h2>Sovereign AI Agents</h2>
+                <p style="color: var(--color-text-muted); margin-top: 1rem;">
+                    Private AI trained specifically on <strong>your</strong> documents and rules. An assistant that knows every price list, manual, and policy in your company.
+                </p>
+                <ul class="feature-list">
+                    <li>24/7 Cognitive Support for Customers</li>
+                    <li>Private "Data-Secure" Architectures</li>
+                    <li>Automated Paperwork & Data Extraction</li>
+                    <li>Seamless Integration with Website & Telegram</li>
+                </ul>
+                <a href="contact.html?selection=ai" class="btn btn-outline" style="margin-top: 1.5rem;">Deploy Sovereign AI</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vertical 5: Hardware Modernization -->
+    <section id="retrofitting" class="vertical-section">
+        <div class="container vertical-grid">
+            <div>
+                <span class="vertical-tag">Vertical 05</span>
+                <h2>Hardware Modernization & Retrofitting</h2>
+                <p style="color: var(--color-text-muted); margin-top: 1rem;">
+                    We extend the lifecycle of high-value physical assets by installing "Digital Brains." We specialize in adding connectivity and intelligence to traditional machinery.
+                </p>
+                <ul class="feature-list">
+                    <li>Legacy Digitization: Adding sensors to analog equipment</li>
+                    <li>Custom Human-Machine Interfaces (HMI)</li>
+                    <li>Real-time usage tracking and digital reporting</li>
+                    <li>Mobile & Cloud sync for traditional tools</li>
+                </ul>
+                <a href="contact.html?selection=retrofitting" class="btn btn-outline" style="margin-top: 1.5rem;">Upgrade Legacy Assets</a>
+            </div>
+            <div style="background: var(--color-card); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <span style="color: var(--color-blue-bright); font-size: 5rem; opacity: 0.2;">⚙️</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vertical 6: Strategic Advisory -->
+    <section id="advisory" class="vertical-section" style="background: #050505;">
+        <div class="container vertical-grid">
+            <div style="background: var(--color-card); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center; order: 2;">
+                <span style="color: var(--color-green-bright); font-size: 5rem; opacity: 0.2;">🧠</span>
+            </div>
+            <div style="order: 1;">
+                <span class="vertical-tag">Vertical 06</span>
+                <h2>Strategic Advisory & Fractional CTO</h2>
+                <p style="color: var(--color-text-muted); margin-top: 1rem;">
+                    For non-technical founders, we serve as the technical architect and guardian of your investment, ensuring scalability and preventing technical debt.
+                </p>
+                <ul class="feature-list">
+                    <li>Technical Roadmapping & Scalability Planning</li>
+                    <li>R&D Management: Concept to Market-Ready</li>
+                    <li>Developer Oversight & Code Reviews</li>
+                    <li>Technical Due Diligence for Investors</li>
+                </ul>
+                <a href="contact.html?selection=advisory" class="btn btn-outline" style="margin-top: 1.5rem;">Book Engineering Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vertical 7: Mentorship -->
+    <section id="mentorship" class="vertical-section">
+        <div class="container vertical-grid">
+            <div>
+                <span class="vertical-tag">Vertical 07</span>
+                <h2>STEM Mentorship & Technical Education</h2>
+                <p style="color: var(--color-text-muted); margin-top: 1rem;">
+                    We foster the next generation of engineers through expert-led, hands-on training in electronics and software development.
+                </p>
+                <ul class="feature-list">
+                    <li>Applied Electronics (Arduino/ESP32)</li>
+                    <li>Engineering Mentorship for University Projects</li>
+                    <li>The "Creator" Curriculum for ages 10+</li>
+                    <li>Transitioning students to systems architects</li>
+                </ul>
+                <a href="contact.html?selection=mentorship" class="btn btn-outline" style="margin-top: 1.5rem;">Apply for Mentorship</a>
+            </div>
+            <div style="background: var(--color-card); height: 300px; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                <span style="color: var(--color-red); font-size: 5rem; opacity: 0.2;">🎓</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" style="text-align: center; padding: 8rem 2rem;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Ready to build your <span class="text-gradient-blue">Digital Foundation</span>?</h2>
+        <p style="color: var(--color-text-muted); margin-bottom: 2.5rem;">Contact us today for a technical consultation.</p>
+        <a href="contact.html" class="btn btn-primary btn-large">Start Project</a>
+    </section>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <img src="assets/logo-white-full.png" alt="SyncLogic Systems Full Logo" class="footer-logo">
+                <p>Precision Infrastructure. Sovereign Intelligence. The digital nervous system for modern business.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="story.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Verticals</h4>
+                <ul>
+                    <li><a href="#iot">Industrial IoT</a></li>
+                    <li><a href="#apps">Custom Apps</a></li>
+                    <li><a href="#ai">Sovereign AI</a></li>
+                    <li><a href="#infrastructure">IT Automation</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="security.html">Security Protocol</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 SyncLogic Systems. All Rights Reserved. Designed for Sovereignty.
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+        // Fail-safe: Force splash removal after 3.5s for local file compatibility
+        setTimeout(function() {
+            var s = document.getElementById('splash-screen');
+            if (s && !s.classList.contains('fade-out')) {
+                s.classList.add('fade-out');
+                document.body.classList.remove('lock-scroll');
+                setTimeout(function() { s.style.display = 'none'; }, 800);
+            }
+        }, 3500);
+    </script>
+</body>
+</html>
